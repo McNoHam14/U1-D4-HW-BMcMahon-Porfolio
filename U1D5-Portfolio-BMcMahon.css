@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Impact, Haettenschweiler, sans-serif;
+    font-family: Impact, sans-serif;
 }
 
 header {
@@ -79,7 +79,6 @@ main {
 }
 
 footer {
-
     height: 200px;
     text-align: center;
     background-color: darkgreen;
@@ -157,10 +156,11 @@ main2 {
     border-radius: 20px;
     user-select: none;
     box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+    transition-duration: 3s;
 }
 
 .family:hover {
-    transform: scale(2.2);
+    transform: scale(3.2);
     box-shadow: 0 10px 40px rgb(0 0 0 / 100%);
 }
 
@@ -193,14 +193,18 @@ main2 {
 
 .hobbies {
     width: 300px;
-    height: 350px;
+    height: 300px;
     overflow: hidden;
+    object-fit: ;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20vh;
     border-radius: 20px;
     user-select: none;
     box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition: transform 300ms 50ms, opacity 5ms;
 }
 
 .hobbies:hover {
@@ -246,10 +250,13 @@ main2 {
     border-radius: 20px;
     user-select: none;
     box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition: transform 2s 50ms, opacity 5s;
 }
 
 .education:hover {
-    transform: scale(2.2);
+    transform: scale(4.2);
     box-shadow: 0 10px 40px rgb(0 0 0 / 100%);
 }
 
