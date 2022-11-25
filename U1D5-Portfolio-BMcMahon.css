@@ -8,7 +8,7 @@ body {
 header {
     width: 100%;
     margin: auto;
-    background-color: darkgreen;
+    background-color: rgba(239, 121, 11, 0.714);
 }
 
 header div {
@@ -39,19 +39,80 @@ main {
 
 /* section 1 images & content */
 
+/*
 .section1 {
     position: relative;
     display: inline-block;
 }
 
+
+.section1 {
+    width: 1000;
+    height: 1000px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+}
+*/
+
+
+/*
+.block4,
+.block5 {
+    width: 100px;
+    height: 100px;
+    margin: 2ch;
+    display: inline-block;
+    background-color: blueviolet;
+}
+*/
+
+
+.aboutmecard {
+    position: relative;
+    height: 400px;
+    transition: width 2s;
+
+    /*
+    width: 210px;
+    height: 800px;
+    overflow: hidden;
+    margin-right: 10px;
+    change for family
+    margin-left: 0px;
+    display: inline-block;
+    */
+}
+
 .aboutmecard img {
-    display: block;
     position: absolute;
     width: 200px;
     height: 400px;
     border-radius: 25%;
-
+    box-shadow: 10px 10px;
 }
+
+:hover .aboutmeinfo {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    color: aqua;
+
+    bottom: 20px;
+    right: 1375px;
+}
+
+/*
+#p1 {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+}
+*/
+
 
 
 .familycard img {
@@ -60,11 +121,23 @@ main {
     width: 200px;
     height: 400px;
     border-radius: 25%;
+    object-fit: cover;
 
 }
 
+.section1 {
+    position: absolute;
+    display: block;
+}
 
 /* section 2 images & content */
+
+/* 
+.section2 {
+    position: relative;
+    display: block;
+}
+
 
 .educationcard img {
     position: absolute;
@@ -81,6 +154,7 @@ main {
 .workcard img {
     width: 200px;
     height: 400px;
+    margin-left: 500px;
 
 
     border-radius: 25%;
@@ -90,8 +164,11 @@ main {
 .hobbiescard img {
     width: 200px;
     height: 400px;
+    margin-left: 500px;
 
 
     border-radius: 25%;
 
 }
+
+*/
