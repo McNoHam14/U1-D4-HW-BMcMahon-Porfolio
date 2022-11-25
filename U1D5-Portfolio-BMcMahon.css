@@ -3,16 +3,39 @@ body {
     font-family: Impact, Haettenschweiler, sans-serif;
 }
 
-
-
 header {
     width: 100%;
+    height: 200px;
     margin: auto;
     background-color: rgba(239, 121, 11, 0.714);
 }
 
+.bg-darkgreen {
+    background-color: darkcyan;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.text-center {
+    text-align: center;
+}
+
 header div {
-    padding: 0rem;
+    padding: 2rem;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.text-left {
+    text-align: left;
 }
 
 header span {
@@ -21,21 +44,238 @@ header span {
     background-color: lightgreen;
 }
 
+main {
+    height: 1000px;
+    padding: 2rem;
+    background-color: purple;
+    color: white;
+}
+
+.aboutme {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+    user-select: none;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+}
+
+.aboutme:hover {
+    transform: scale(2.2);
+    box-shadow: 0 10px 40px rgb(0 0 0 / 100%);
+}
+
+.aboutme img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.aboutmeoverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%);
+}
+
+.aboutmeinfo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: transform 300ms 50ms, opacity 250ms;
+}
+
+/*
+main2 {
+    height: 1000px;
+    padding: 2rem;
+    background-color: purple;
+    color: white;
+}
+*/
+
+
+
+
+
+.family {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+    user-select: none;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+}
+
+.family:hover {
+    transform: scale(2.2);
+    box-shadow: 0 10px 40px rgb(0 0 0 / 100%);
+}
+
+.family img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.familyoverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%);
+}
+
+.familyinfo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: transform 300ms 50ms, opacity 250ms;
+}
+
+
+.section2 {
+    height: 1000px;
+    padding: 2rem;
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+.hobbies {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+    user-select: none;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+}
+
+.hobbies:hover {
+    transform: scale(2.2);
+    box-shadow: 0 10px 40px rgb(0 0 0 / 100%);
+}
+
+.hobbies img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.hobbiesoverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%);
+}
+
+.hobbiesinfo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: transform 300ms 50ms, opacity 250ms;
+}
+
+
+
+
+
+/*
+.aboutmecard {
+    position: relative;
+    height: 40px;
+    transition: width 2s;
+    border-radius: 25%;
+    overflow: hidden;
+} */
+
+/*
+.aboutmecard img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    box-shadow: 10px 10px;
+}
+*/
+
+/*
+:hover .aboutmeinfo {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    color: rgb(255, 0, 123);
+
+    bottom: 20px;
+    right: 1375px;
+}
+*/
+
+/* doesn't work
+.bg-purple {
+    background-color: purple;
+}
+.text-center {
+    text-align: left;
+}
+*/
+
+
+/*
 footer {
     width: 100%;
     text-align: center;
     background-color: darkgreen
 }
+*/
 
 /* utility classes */
 
 
 /* end of utility classes */
-
-main {
-    background-color: lightgreen;
-    padding: 2rem;
-}
 
 /* section 1 images & content */
 
@@ -71,12 +311,11 @@ main {
 */
 
 
-.aboutmecard {
-    position: relative;
-    height: 400px;
-    transition: width 2s;
+/*ABOUT ME CARD*/
 
-    /*
+
+
+/*
     width: 210px;
     height: 800px;
     overflow: hidden;
@@ -85,25 +324,7 @@ main {
     margin-left: 0px;
     display: inline-block;
     */
-}
 
-.aboutmecard img {
-    position: absolute;
-    width: 200px;
-    height: 400px;
-    border-radius: 25%;
-    box-shadow: 10px 10px;
-}
-
-:hover .aboutmeinfo {
-    position: absolute;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 10;
-    color: aqua;
-
-    bottom: 20px;
-    right: 1375px;
-}
 
 /*
 #p1 {
@@ -113,22 +334,51 @@ main {
 }
 */
 
+/*FAMILY CARD*/
 
+/*
+.familycard {
+    position: relative;
+    height: 400px;
+}*/
 
+/*
 .familycard img {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    border-radius: 25%;
+    box-shadow: 10px 10px;
+}*/
+
+/*
     display: block;
     position: absolute;
     width: 200px;
     height: 400px;
     border-radius: 25%;
     object-fit: cover;
+    */
 
-}
 
+/*
+:hover .familyinfo {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    color: aqua;
+
+    bottom: 20px;
+    right: 1375px;
+    */
+
+
+/*
 .section1 {
     position: absolute;
     display: block;
 }
+*/
 
 /* section 2 images & content */
 
@@ -169,6 +419,5 @@ main {
 
     border-radius: 25%;
 
-}
 
-*/
+    */
