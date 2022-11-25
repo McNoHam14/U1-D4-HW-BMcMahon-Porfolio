@@ -51,6 +51,47 @@ main {
     color: white;
 }
 
+.section2 {
+    height: 1000px;
+    padding: 2rem;
+    background-color: orange;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.section3 {
+    height: 1000px;
+    padding: 2rem;
+    background-color: maroon;
+    color: white;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.section4 {
+    height: 1000px;
+    padding: 2rem;
+    background-color: grey;
+    color: red;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+footer {
+
+    height: 200px;
+    text-align: center;
+    background-color: darkgreen;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
 .aboutme {
     width: 300px;
     height: 350px;
@@ -74,9 +115,6 @@ main {
     object-fit: cover;
 }
 
-h2 {
-    font-weight: bold;
-}
 
 .aboutmeoverlay {
     position: absolute;
@@ -109,9 +147,6 @@ main2 {
 */
 
 
-
-
-
 .family {
     width: 300px;
     height: 350px;
@@ -135,10 +170,6 @@ main2 {
     object-fit: cover;
 }
 
-h2 {
-    font-weight: bold;
-}
-
 .familyoverlay {
     position: absolute;
     top: 0;
@@ -159,17 +190,6 @@ h2 {
     padding-right: 12px;
     transition: transform 300ms 50ms, opacity 250ms;
 }
-
-
-.section2 {
-    height: 1000px;
-    padding: 2rem;
-    background-color: orange;
-    color: white;
-}
-
-
-
 
 .hobbies {
     width: 300px;
@@ -194,9 +214,6 @@ h2 {
     object-fit: cover;
 }
 
-h2 {
-    font-weight: bold;
-}
 
 .hobbiesoverlay {
     position: absolute;
@@ -212,7 +229,51 @@ h2 {
     right: 0;
     bottom: 0;
     left: 0;
-    color: white;
+    color: greenyellow;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: transform 300ms 50ms, opacity 250ms;
+}
+
+.education {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+    user-select: none;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+}
+
+.education:hover {
+    transform: scale(2.2);
+    box-shadow: 0 10px 40px rgb(0 0 0 / 100%);
+}
+
+.education img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.educationoverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%);
+}
+
+.educationinfo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: pink;
     text-align: center;
     padding-left: 12px;
     padding-right: 12px;
@@ -221,7 +282,50 @@ h2 {
 
 
 
+.work {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+    user-select: none;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+}
 
+.work:hover {
+    transform: scale(2.2);
+    box-shadow: 0 10px 40px rgb(0 0 0 / 100%);
+}
+
+.work img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+.workoverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%);
+}
+
+.workinfo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: orange;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: transform 300ms 50ms, opacity 250ms;
+}
 
 /*
 .aboutmecard {
@@ -264,13 +368,6 @@ h2 {
 */
 
 
-/*
-footer {
-    width: 100%;
-    text-align: center;
-    background-color: darkgreen
-}
-*/
 
 /* utility classes */
 
