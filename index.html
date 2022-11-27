@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
 
 </head>
 
@@ -28,15 +34,11 @@
             <img id="me" src="./aboutme.png" />
             <ul>
                 <span><a href="http://www.google.com">About me</a></span>
-                <span>Education</span>
-                <span>Work Experience</span>
-                <span>CONTACT - Github/LinkedIn/email/phone</span>
+                <span><a href="http://www.google.com">Education</a></span>
+                <span><a href="http://www.google.com">Work Experience</a></span>
+                <span><a href="http://www.google.com">CONTACT -
+                        Github/LinkedIn/email/phone</a></span>
             </ul>
-
-            <p>
-                <br>DOWNLOAD CV
-                <!--icon-->
-            </p>
         </div>
         <div>
             <p>
@@ -44,14 +46,22 @@
                     style="font-size:48px;color:blue"></i>
                 <a class=linkedin
                     href="https://www.linkedin.com/in/ben-mcmahon-438108b7/">LINKEDIN
-                    BADGE</a>
-
+                    PROFILE</a>
             </p>
         </div>
+
+        <!-- Full width -->
+        <button class="btn" style="width:100%"><i class="fa fa-download"></i>
+            Download CV</button>
+
+
+
     </header>
 
     <main>
+
         <div class="me">
+            <p>
             <div class="meoverlay">
                 <img src="./family.png" alt="picture with my son">
                 <h2> ABOUT ME</h2>
@@ -63,38 +73,52 @@
                     </ul>
                 </div>
             </div>
+            </p>
         </div>
 
+
         <div class="education">
-            <img src="./education.png" alt="graduation picture">
-            <h2> ABOUT ME</h2>
-            <div class"metext">
-                <ul>
-                    <li>2:1 Law LLB, University of Liverpool</li>
-                    <li>PGCE, Cardiff Metropolitan University </li>
-                    <li>Full Stack Developer, Epicode</li>
-                </ul>
+            <p>
+            <div class="educationoverlay">
+                <img src="./education.png" alt="graduation picture">
+                <h2>EDUCATION</h2>
+                <div class"metext">
+                    <ul>
+                        <li>2:1 Law LLB, University of Liverpool</li>
+                        <li>PGCE, Cardiff Metropolitan University </li>
+                        <li>Full Stack Developer, Epicode</li>
+                    </ul>
+                </div>
             </div>
+            </p>
         </div>
 
 
         <div class="work">
-            <img src="./food.png" alt="eating pizza">
-            <h2> ABOUT ME</h2>
-            <div class"metext">
-                <ul>
-                    <li>2013-2016 Airbnb Property Business</li>
-                    <li>2016-2021 Software Business Development</li>
-                    <li>2023 what's next?</li>
-                </ul>
+            <p>
+            <div class="workoverlay">
+                <img src="./food.png" alt="eating pizza">
+                <h2>WORK</h2>
+                <div class"metext">
+                    <ul>
+                        <li>2013-2016 Airbnb Property Business</li>
+                        <li>2016-2021 Software Business Development</li>
+                        <li>2023 what's next?</li>
+                    </ul>
+                </div>
             </div>
+            </p>
         </div>
+
 
 
     </main>
 
+    <div class="backtotop"><a href="#">Back to top</a></div>
+
     <footer>
-        <div class="container">
+
+        <div class="contactform">
             <form action="action_page.php">
 
                 <label for="fname">First Name</label>
@@ -107,8 +131,8 @@
 
                 <label for="country">Country</label>
                 <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option value="eu">EU</option>
                     <option value="usa">USA</option>
                 </select>
 
